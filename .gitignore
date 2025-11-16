@@ -1,3 +1,20 @@
+# Ignore Terraform local files
 terraform/.terraform/
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
+
+# Ignore node & build folders
+node_modules/
+dist/
+build/
+
+# Ignore temporary files
+*.log
+.DS_Store
+
+# Ignore Jenkins system folder (if any)
+.jenkins/
+
+# Ignore Docker local
+*.env
+
