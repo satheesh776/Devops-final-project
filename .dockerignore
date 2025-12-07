@@ -9,6 +9,5 @@ k8s/
 *.tfstate
 *.tfstate.backup
 node_modules/
-dist/
 build/
 
